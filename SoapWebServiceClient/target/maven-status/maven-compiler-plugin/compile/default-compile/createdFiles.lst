@@ -1,0 +1,14 @@
+net\webservicex\GetUKLocationByCounty.class
+net\webservicex\UKLocationHttpPost.class
+net\webservicex\UKLocationHttpGet.class
+net\webservicex\ObjectFactory.class
+net\webservicex\GetUKLocationByTownResponse.class
+net\webservicex\GetUKLocationByPostCode.class
+net\webservicex\package-info.class
+net\webservicex\GetUKLocationByPostCodeResponse.class
+net\webservicex\ValidateUKAddress.class
+net\webservicex\GetUKLocationByTown.class
+net\webservicex\ValidateUKAddressResponse.class
+net\webservicex\GetUKLocationByCountyResponse.class
+net\webservicex\UKLocation.class
+net\webservicex\UKLocationSoap.class

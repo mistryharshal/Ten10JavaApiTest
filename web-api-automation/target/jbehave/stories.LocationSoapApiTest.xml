@@ -1,0 +1,16 @@
+<story path="stories/LocationSoapApiTest.story" title="">
+<scenario keyword="Scenario:" title="Location Soap Api Test">
+<examples keyword="Examples:">
+<step>Given the user searches for county [county]</step>
+<step>Then user retrieve the UK location and validate the result as per parameter [parameter]</step>
+<parameters>
+<names><name>county</name><name>parameter</name></names>
+<values><value>Greater London</value><value>London</value></values>
+</parameters>
+
+<example keyword="Example:">{county=Greater London, parameter=London}</example>
+<step outcome="successful">Given the user searches for county [county]</step>
+<step outcome="successful">Then user retrieve the UK location and validate the result as per parameter [parameter]</step>
+</examples>
+</scenario>
+</story>

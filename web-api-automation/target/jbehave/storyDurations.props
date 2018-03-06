@@ -1,0 +1,8 @@
+#org.jbehave.core.embedder.StoryManager
+#Tue Mar 06 01:47:16 GMT 2018
+stories/Ten10WebSelenium.story=35000
+threads=1
+total=35000
+threadAverage=35000
+stories/LocationSoapApiTest.story=0
+stories/ValiadateArray.story=0

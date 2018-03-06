@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>stories.Ten10WebSelenium</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/Ten10WebSelenium.story" title="">
+<scenario keyword="Scenario:" title="Wikipedia test">
+<examples keyword="Examples:">
+<step>Given user navigates to the wikipedia home page</step>
+<step>When user search for a given string in [language]</step>
+<step>And user type in a string [parameter] in the search input field</step>
+<step>And user click the search button</step>
+<step>Then user validate that the first heading of the search results page matches the search string [parameter]</step>
+<step>Then verify that the search results page is available in a language given as parameter [language]</step>
+<step>When navigate to the search results page in any other language [otherLanguage]</step>
+<step>Then validate that the search results page in the new language includes a link to the version in English</step>
+<parameters>
+<names><name>language</name><name>parameter</name><name>otherLanguage</name></names>
+<values><value>English</value><value>wikipedia</value><value>Deutsch</value></values>
+</parameters>
+
+<example keyword="Example:">{language=English, parameter=wikipedia, otherLanguage=Deutsch}</example>
+<step outcome="successful">Given user navigates to the wikipedia home page</step>
+<step outcome="successful">When user search for a given string in [language]</step>
+<step outcome="successful">And user type in a string [parameter] in the search input field</step>
+<step outcome="successful">And user click the search button</step>
+<step outcome="successful">Then user validate that the first heading of the search results page matches the search string [parameter]</step>
+<step outcome="successful">Then verify that the search results page is available in a language given as parameter [language]</step>
+<step outcome="successful">When navigate to the search results page in any other language [otherLanguage]</step>
+<step outcome="successful">Then validate that the search results page in the new language includes a link to the version in English</step>
+</examples>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

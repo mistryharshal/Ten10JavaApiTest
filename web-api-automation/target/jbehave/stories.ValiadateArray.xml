@@ -1,0 +1,30 @@
+<story path="stories/ValiadateArray.story" title="">
+<scenario keyword="Scenario:" title="Validate array">
+<examples keyword="Examples:">
+<step>Given an unordered array of integers as [input]</step>
+<step>When user program calculates lenght of longest order</step>
+<step>Then user get the length of ordered subsequence which equals to [output]</step>
+<parameters>
+<names><name>input</name><name>output</name></names>
+<values><value>1 4 1 4 2 1 3 5 6 2 3 7</value><value>4</value></values>
+<values><value>3 1 4 1 5 9 2 6 5 3 5</value><value>3</value></values>
+<values><value>2 7 1 8 2 8 1</value><value>2</value></values>
+</parameters>
+
+<example keyword="Example:">{input=1 4 1 4 2 1 3 5 6 2 3 7, output=4}</example>
+<step outcome="successful">Given an unordered array of integers as [input]</step>
+<step outcome="successful">When user program calculates lenght of longest order</step>
+<step outcome="successful">Then user get the length of ordered subsequence which equals to [output]</step>
+
+<example keyword="Example:">{input=3 1 4 1 5 9 2 6 5 3 5, output=3}</example>
+<step outcome="successful">Given an unordered array of integers as [input]</step>
+<step outcome="successful">When user program calculates lenght of longest order</step>
+<step outcome="successful">Then user get the length of ordered subsequence which equals to [output]</step>
+
+<example keyword="Example:">{input=2 7 1 8 2 8 1, output=2}</example>
+<step outcome="successful">Given an unordered array of integers as [input]</step>
+<step outcome="successful">When user program calculates lenght of longest order</step>
+<step outcome="successful">Then user get the length of ordered subsequence which equals to [output]</step>
+</examples>
+</scenario>
+</story>

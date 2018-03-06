@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave for Ten10</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d1cebb995398f09ba1e7d13043439170d8722e4efb42a41df70d734274493029.html">Ten10 Web Selenium</a></span>
+                > <span class="truncate-60"><a
+                    href="0958476d4ba092dd34f203a06fc112442e907928aa93353c3d0f7fe59c9ba923.html">Wikipedia test </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-03-2018 01:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Ten10 Web Selenium </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Wikipedia test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given user navigates to the wikipedia home page<br>When user search for a given string in [language]<br>And user type in a string [parameter] in the search input field<br>And user click the search button<br>Then user validate that the first heading of the search results page matches the search string [parameter]<br>Then verify that the search results page is available in a language given as parameter [language]<br>When navigate to the search results page in any other language [otherLanguage]<br>Then validate that the search results page in the new language includes a link to the version in English</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_a2be4f68d7bcaf599ddfd6438682033c965bdf192478e051d095e6fbd12e4a1f.png" title="Given user navigates to the wikipedia home page" width="960"/>
+                <img src="scaled_6d3d93cbfaf3013e679e1910b74ba33f7588ffbf896d9553c8d46339b04bcfd8.png" title="Usernavigatestothewikipediahomepage" width="960"/>
+                <img src="a2be4f68d7bcaf599ddfd6438682033c965bdf192478e051d095e6fbd12e4a1f.png" title="When user search for a given string in [language]" width="960"/>
+                <img src="scaled_7af89acf8f4800a2d9a6aabb3fa07a7c15d82a48da4f2861515d71f8ec7d4a2a.png" title="When user search for a given string in [language]" width="960"/>
+                <img src="6d3d93cbfaf3013e679e1910b74ba33f7588ffbf896d9553c8d46339b04bcfd8.png" title="Usersearchforagivenstringinlanguage: English" width="960"/>
+                <img src="7af89acf8f4800a2d9a6aabb3fa07a7c15d82a48da4f2861515d71f8ec7d4a2a.png" title="Usersearchforagivenstringinlanguage: English" width="960"/>
+                <img src="7af89acf8f4800a2d9a6aabb3fa07a7c15d82a48da4f2861515d71f8ec7d4a2a.png" title="And user type in a string [parameter] in the search input field" width="960"/>
+                <img src="scaled_9c0bbc384f648c6ed588ebe3ac532d1a476ff8a73c611fd304ee291525989e3c.png" title="And user type in a string [parameter] in the search input field" width="960"/>
+                <img src="7af89acf8f4800a2d9a6aabb3fa07a7c15d82a48da4f2861515d71f8ec7d4a2a.png" title="Usertypeinastringinthesearchinputfield: wikipedia" width="960"/>
+                <img src="9c0bbc384f648c6ed588ebe3ac532d1a476ff8a73c611fd304ee291525989e3c.png" title="Usertypeinastringinthesearchinputfield: wikipedia" width="960"/>
+                <img src="scaled_7233a18b3ee09d0c1778b56c8470428711a4f7baa72179b87972c93f0bc069c9.png" title="And user click the search button" width="960"/>
+                <img src="scaled_865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="And user click the search button" width="960"/>
+                <img src="7233a18b3ee09d0c1778b56c8470428711a4f7baa72179b87972c93f0bc069c9.png" title="Userclickthesearchbuttons" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Userclickthesearchbuttons" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Then user validate that the first heading of the search results page matches the search string [parameter]" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Uservalidatethatthefirstheadingofthesearchresultspagematchesthesearchstring: wikipedia" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Then verify that the search results page is available in a language given as parameter [language]" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Verifythatthesearchresultspageisavailableinalanguagegivenasparameter: English" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="When navigate to the search results page in any other language [otherLanguage]" width="960"/>
+                <img src="scaled_a43c308f747d53559624e4bd3be2d92798837190a6c53a62a2b267b58ef11e81.png" title="When navigate to the search results page in any other language [otherLanguage]" width="960"/>
+                <img src="865a95b61cbf87f944860e8811da203d66c54a7cb0735def4de576dc8c5429a0.png" title="Navigatetothesearchresultspageinthatlanguage: Deutsch" width="960"/>
+                <img src="a43c308f747d53559624e4bd3be2d92798837190a6c53a62a2b267b58ef11e81.png" title="Navigatetothesearchresultspageinthatlanguage: Deutsch" width="960"/>
+                <img src="a43c308f747d53559624e4bd3be2d92798837190a6c53a62a2b267b58ef11e81.png" title="Then validate that the search results page in the new language includes a link to the version in English" width="960"/>
+                <img src="a43c308f747d53559624e4bd3be2d92798837190a6c53a62a2b267b58ef11e81.png" title="Validatethatthesearchresultspagelinktotheversionin english: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

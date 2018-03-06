@@ -1,0 +1,38 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Ten10WebSelenium.story</div>
+<div class="scenario">
+<h2>Scenario: Wikipedia test</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given user navigates to the wikipedia home page</div>
+<div class="step">When user search for a given string in [language]</div>
+<div class="step">And user type in a string [parameter] in the search input field</div>
+<div class="step">And user click the search button</div>
+<div class="step">Then user validate that the first heading of the search results page matches the search string [parameter]</div>
+<div class="step">Then verify that the search results page is available in a language given as parameter [language]</div>
+<div class="step">When navigate to the search results page in any other language [otherLanguage]</div>
+<div class="step">Then validate that the search results page in the new language includes a link to the version in English</div>
+<table>
+<thead>
+<tr>
+<th>language</th><th>parameter</th><th>otherLanguage</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>English</td><td>wikipedia</td><td>Deutsch</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {language=English, parameter=wikipedia, otherLanguage=Deutsch}</h3>
+<div class="step successful">Given user navigates to the wikipedia home page</div>
+<div class="step successful">When user search for a given string in [language]</div>
+<div class="step successful">And user type in a string [parameter] in the search input field</div>
+<div class="step successful">And user click the search button</div>
+<div class="step successful">Then user validate that the first heading of the search results page matches the search string [parameter]</div>
+<div class="step successful">Then verify that the search results page is available in a language given as parameter [language]</div>
+<div class="step successful">When navigate to the search results page in any other language [otherLanguage]</div>
+<div class="step successful">Then validate that the search results page in the new language includes a link to the version in English</div>
+</div>
+</div>
+</div>
